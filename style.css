@@ -1,0 +1,53 @@
+.list{
+    text-align: center;
+    margin-left: 500px;
+    margin-bottom: 100px;
+}
+.list ul{}
+.list ul li{
+    list-style: none;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 350px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 20px 5px #ddd;
+    background: linear-gradient(black,red);
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .5s;
+}
+.list ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 22px;
+}
+.l1{
+    margin-right: 500px;
+    margin-left: -80px;
+    color: black;
+    font-weight: bolder;
+    margin-top: 10px;
+    width: 500px;
+    border-radius: 5px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 5px 5px 20px 5px #ddd;
+}
+.l2{
+    margin-right: 500px;
+    margin-left: -135px;
+    color: black;
+    font-weight: bolder;
+    margin-top: 20px;
+    width: 600px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 60px;
+    border: 1px solid #ddd;
+    box-shadow: 5px 5px 20px 5px #ddd;
+}
+.list ul li:hover{
+    transform: scale(1.1);
+}
